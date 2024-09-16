@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Recommendation Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify Recommendation Engine</h1>
+        <p>Discover new music based on your listening habits!</p>
+        <a href="{{ url_for('main.login') }}" class="btn">Login with Spotify</a>
+    </div>
+</body>
+</html>
